@@ -19,11 +19,11 @@ bash wp-wordlist.sh -t > theme.txt
 # How To Use With Fuff your target
 ### With Plugin Wordlist 
 ```bash
-fuff -w /path/to/plugins.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
+ffuf -w /path/to/plugins.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
 ```
 ### With Theme Wordlist 
 ```bash
-fuff -w /path/to/theme.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
+ffuf -w /path/to/theme.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
 ```
 
 ## Support
