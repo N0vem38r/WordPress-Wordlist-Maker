@@ -10,9 +10,9 @@ Use Wp-Wordlist-Maker to generate a list of all available #WordPress plugins and
 #### Find Plugin Get Related Wordslist :
 
 ```bash
-bash wp-wordlist.sh -p plugins.txt
+bash wp-wordlist.sh -p > plugins.txt
 ```
-### Find Plugin Get Related Wordslist :
+### Find Theme Get Related Wordslist :
 ```bash
 bash wp-wordlist.sh -t > theme.txt
 ```
@@ -23,7 +23,7 @@ ffuf -w /path/to/plugins.txt -u https://Target.com/wp-content/plugins/FUZZ/readm
 ```
 ### With Theme Wordlist 
 ```bash
-ffuf -w /path/to/theme.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
+ffuf -w /path/to/theme.txt -u https://Target.com/wp-content/themes/FUZZ/readme.txt
 ```
 
 ## Support
